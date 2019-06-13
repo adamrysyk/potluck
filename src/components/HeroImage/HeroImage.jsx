@@ -1,10 +1,10 @@
 import React from 'react';
 
-import styles from './heroImage.scss';
+import styles from './heroImage.module.scss';
 
 const HeroImage = () => (
-	<div className={styles.HeroImage}>
-		Hero Image
+	<div className={styles.heroImage}>
+		<h1>Cook Together</h1>
 	</div>
 );
 
