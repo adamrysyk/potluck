@@ -1,16 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import styles from './App.module.scss'
 import Nav from '../Nav/Nav';
-import HeroImage from '../HeroImage/HeroImage';
-import RecipesListContainer from '../../containers/RecipesListContainer/RecipesListContainer';
+import HomePage from '../HomePage/HomePage';
+import RecipePage from '../RecipePage/RecipePage';
 
 const App = () => (
-	<div className={styles.app}>
-		<Nav />
-		<HeroImage />
-		<RecipesListContainer />
-	</div>
+	<Router>
+		<div className={styles.app}>
+			<Nav />
+			<Route exact path="/" component={HomePage} />	
+			<Route path="/recipe/:id" component={RecipePage} />
+		</div>
+	</Router>
 );
 
 export default App;

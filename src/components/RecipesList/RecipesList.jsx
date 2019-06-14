@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import styles from './recipesList.module.scss';
 import RecipeTile from '../RecipeTile/RecipeTile';
 
-const RecipesList = ({ recipes }) => (
+const RecipesList = ({ recipes, onClickRecipeTile }) => (
 	<div className={styles.recipesList}>
 		{recipes.map(recipe => (
-			<RecipeTile key={recipe.id} recipe={recipe}/>
+			<RecipeTile key={recipe.id} recipe={recipe} onHandleRecipeClick={() => onClickRecipeTile(recipe)} />
 		))}
 	</div>
 );

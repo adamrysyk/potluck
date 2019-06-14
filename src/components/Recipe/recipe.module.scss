@@ -1,0 +1,23 @@
+.recipe {
+
+	:global
+		.recipe-banner {
+			align-items: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: white;
+			display: flex;
+			height: 330px;
+			justify-content: center;
+			width: 100%;
+			&.recipe-banner-1 {
+				background-image: url('../../assets/images/recipeBanners/recipe1.png');
+			}
+			&.recipe-banner-2 {
+				background-image: url('../../assets/images/recipeBanners/recipe2.png');
+			}
+			&.recipe-banner-3 {
+				background-image: url('../../assets/images/recipeBanners/recipe3.png');
+			}
+		}
+}
