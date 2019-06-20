@@ -48,6 +48,15 @@ const Recipe = ({ activeRecipe }) => (
                 <p>recipe online!</p>
             </div>
         </div>
+        <div className="recipe-lower-area">
+            <h1>Buy ingredients online</h1>
+            <p>Send this recipe to your Loblaws cart</p>
+            <div>
+                <span>Add to cart</span>
+                <i className="angle right icon"></i>
+            </div>
+            <p>Powered by Loblaws.ca</p>
+        </div>
 	</div>
 );
 

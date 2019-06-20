@@ -93,4 +93,27 @@
                 }
             }
         }
+
+    :global
+        .recipe-lower-area {
+            display: flex;
+            flex-direction: column;
+            padding: 0 0 50px 70px;
+
+            div {
+                background-color: red;
+                color: white;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                padding: 10px 20px;
+                position: relative;
+                width: 250px;
+
+                i {
+                    position: absolute;
+                    right: 0;
+                }
+            }
+        }
 }
