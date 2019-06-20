@@ -47,14 +47,14 @@ export default [{
             quantity: '0.25 tsp',
             ammount: 1
         }
-        
+
     ],
     instructions: [
        'Cook fettuccine in a pot of salted water (4 qts water, 1 tbsp salt) according to package instructions then drain and set aside.',
         'Meanwhile, slice chicken into strips and season all over with salt and pepper. In a large skillet, heat 2 tbsp olive oil over medium/high heat and sauté chicken until lightly golden or cooked through (5 minutes). Remove chicken from the pan and cover to keep warm.',
         'In the same pan over medium/high heat, heat 1 tbsp olive oil and 1 tbsp of butter. Add onion and sauté 3 minutes until soft. Add sliced mushrooms and sauté until soft (5-7 minutes), stirring frequently. Add garlic and sauté 30 seconds, stirring constantly.',
         'Add half-and-half cream and simmer over medium/high heat for 8-10 minutes, or until it begins to thicken. Add chicken back to the pan, add ¼ cup parsley and season sauce to taste (½ to 1 tsp salt and ¼ tsp pepper).',
-        'Add cooked pasta and stir to combine. Heat another minute until warmed through then turn off heat, cover and let rest 10-15 minutes. Stir and serve garnished with parsley.' 
+        'Add cooked pasta and stir to combine. Heat another minute until warmed through then turn off heat, cover and let rest 10-15 minutes. Stir and serve garnished with parsley.'
     ],
     filterTags: ['Italian', 'Pasta', 'Date Night', 'Family'],
     prepTime: '20 minutes',
@@ -113,7 +113,7 @@ export default [{
             quantity: '4 cups',
             ammount: 1
         }
-        
+
     ],
     instructions: [
         'Whisk eggs in a bowl. Heat 1 tbsp of oil to wok/pan and add egg mixture. Scramble eggs until cooked then remove from pan and set aside.',

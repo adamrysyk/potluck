@@ -4,8 +4,17 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-	display: flex;
+    display: flex;
+    flex-direction: column;
 	height: 330px;
 	justify-content: center;
-	width: 100%;
+    width: 100%;
+
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
