@@ -46,7 +46,7 @@
                 justify-content: center;
                 width: 50%;
 
-                &:first-child {
+                &.active {
                     background-color: #272727;
                 }
             }
@@ -73,6 +73,10 @@
                 p {
                     max-width: 75%;
                 }
+
+                ul {
+                    max-width: 90%;
+                }
             }
 
             div:nth-child(2) {
@@ -80,6 +84,7 @@
                 background-color: red;
                 color: white;
                 display: flex;
+                height: 400px;
                 justify-content: center;
                 flex: 1;
                 font-size: 16px;

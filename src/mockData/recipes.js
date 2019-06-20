@@ -1,6 +1,6 @@
 export default [{
     id: 1,
-    name: 'Chicken Fettuccini Alfredo',
+    name: ' Garrett\'s Chicken Fettuccini Alfredo',
     ingredients: [
         {
             name: 'Chicken Breast',
@@ -62,7 +62,7 @@ export default [{
     servingSize: 8
     }, {
     id: 2,
-    name: 'Chinese Fried Rice',
+    name: 'Lisha\'s Fried Rice',
     ingredients: [
         {
             name: 'Onion (chopped)',
@@ -126,7 +126,7 @@ export default [{
     servingSize: 4
     }, {
     id: 3,
-    name: 'Fresh Caesar Salad',
+    name: 'Stacie\'s Fresh Caesar Salad',
     ingredients: [
         {
             name: 'Romaine Lettuce',
